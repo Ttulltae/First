@@ -33,13 +33,13 @@
 }
 
 #profile_pic{
-    width: 50px;
-    height: 50px;
+    width: 15vw;
+    height: 15vw;
 }
 
 .highlight_pic{
-    width:  35px;
-    height: 35px;
+    width:  10vw;
+    height: 10vw;
 
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +47,7 @@
 
 #highlight_area{
     display: grid;
-    grid-template-columns: 45px 45px 1fr;
+    grid-template-columns: 12vw 12vw 1fr;
 }
 
 .highlight{
@@ -84,8 +84,8 @@ button{
 #top{
     display: grid;
     grid-template-columns: 4fr 7fr 4fr;
-    height: 30px;
-
+    height: 10vw;
+    min-height: 10vw;
     border-bottom: solid gray 0.1px;
     margin-bottom: 10px;
 }
@@ -118,3 +118,29 @@ button{
     font-weight: 100;
 }
 
+i{
+    color: gray;
+}
+
+#top i{
+    font-size: 14px;
+}
+
+#top div{
+    text-align: center;
+    padding-top: 6px;
+}
+
+#sub_icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    text-align: center;
+    font-size: 15px;
+
+    height: 30px;
+}
+
+.selected{
+    border-bottom: solid gray 3px;
+}
